@@ -1,0 +1,130 @@
+$fondo-ranking: #00162B;
+$fondo-puntuacion: #d90a40;
+$color-fuente: #fff;
+$normal: #4E4E4E;
+$oro: #FFC600;
+$plata: #C0C0C0;
+$bronce: #945D41;
+
+.cont-ranking-podio {
+  width: 100%;
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: $color-fuente;
+  height: 50px;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 4px auto 20px;
+}
+
+.cont-ranking-podio p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.p-oro {
+  background-color: $oro;
+  height: 125px;
+
+  .posicion {
+    width: 20%;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .puntos {
+    font-size: 1.8rem;
+    background-color: transparent;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .cont-user {
+    width: 90%;
+    height: 40%;
+    justify-content: flex-start;
+    font-size: 1.8rem;
+  }
+}
+
+.p-plata {
+  background-color: $plata;
+  height: 115px;
+
+  .posicion {
+    width: 20%;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .puntos {
+    font-size: 1.5rem;
+    background-color: transparent;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .cont-user {
+    width: 90%;
+    height: 40%;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+  }
+}
+
+.p-bronce {
+  background-color: $bronce;
+  height: 100px;
+
+  .posicion {
+    width: 20%;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .puntos {
+    font-size: 1.5rem;
+    background-color: transparent;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .cont-user {
+    width: 90%;
+    height: 40%;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+  }
+}
+
+.cont-datos-podio {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 4px solid #fff;
+}
+
+@media only screen and (min-width: 680px) {
+  .p-plata {
+    background-color: $plata;
+    height: 100px;
+  }
+
+  .p-bronce {
+    transform: translateY(20px);
+  }
+}

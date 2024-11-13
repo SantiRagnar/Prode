@@ -1,0 +1,63 @@
+$fondo-ranking: #00162B;
+$fondo-puntuacion: #d90a40;
+$color-fuente: #fff;
+$normal: #4E4E4E;
+$oro: #FFC600;
+$plata: #C0C0C0;
+$bronce: #945D41;
+
+.cont-ranking {
+  background-color: $fondo-ranking;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: $color-fuente;
+  height: 50px;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 4px auto;
+  padding: 0 2px;
+}
+
+.cont-ranking p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* .oro{
+  background-color: $oro;
+}
+
+.plata{
+  background-color: $plata;
+}
+
+.bronce{
+  background-color: $bronce;
+}
+
+.normal{
+  background-color: $normal;
+}
+ */
+.cont-user {
+  background-color: transparent;
+  width: 50%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .cont-puntos{
+  background-color: $fondo-puntuacion;
+  width: 20%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+} */

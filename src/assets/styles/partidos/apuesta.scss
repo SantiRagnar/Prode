@@ -1,0 +1,42 @@
+.apuesta{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-apuesta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  transform: translateX(18px);
+}
+
+.no-edit{
+  transform: translateX(0px);
+}
+
+.edit{
+  position: relative;
+  width: 10%;
+  //right: ;
+}
+
+.btn-apuesta{
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-apuesta img{
+  width: 70%;
+}

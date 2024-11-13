@@ -1,0 +1,14 @@
+.contpp-partidos{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30px 0;
+  min-height: 80vh;
+}
+
+.cont-partidos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

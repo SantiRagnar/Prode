@@ -1,0 +1,90 @@
+$base-card: #00162B;
+$color-fuente: #fff;
+$color-nojugado: #d96e0a;
+$color-enjuego: #2cd90a;
+$color-finalizado: #d90a0a;
+
+.cont-cardPartido{
+  background-color: $base-card;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 350px;
+}
+
+.cont-nomEquipos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 40px;
+}
+
+.equipo{
+  width: 50%;
+  text-align: center;
+}
+
+.equipo p{
+  font-weight: 600;
+  font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+  letter-spacing: 0.5px;
+}
+
+.cont-datosPartido{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 30px;
+  font-size: clamp(0.8rem, 2.5vw, 0.85rem);
+}
+
+.cont-dato{
+  width: 75%;
+}
+
+.cont-estado{
+  width: 25%;
+}
+
+.no-jugado{
+  color: $color-nojugado;
+}
+
+.en-juego{
+  color: $color-enjuego ;
+}
+
+.finalizado{
+  color: $color-finalizado;
+}
+
+.cont-resul-apu{
+  width: 100%;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, $base-card 90.19%), url("../../img/red-bull-wololo-iii-blur.png") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: normal, darken;
+}
+
+// enero
+// febrero
+// marzo
+// abril
+// mayo
+// junio
+// julio
+// agostro
+// septiembre
+// octubre
+// noviembre
+// diciembre

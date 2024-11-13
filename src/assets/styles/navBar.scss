@@ -1,0 +1,110 @@
+$base-footer: #00162B;
+$borde-footer: #d90a40;
+
+
+.cont-nav {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: $base-footer;
+  border-top: 4px solid $borde-footer;
+  
+  .nav {
+    padding: 0;
+    width: 100%;
+    height: 65px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav li a{
+    text-decoration: none;
+    color: #fff;
+    outline: 0;
+  }
+  
+  .nav li a:link{
+    text-decoration: none;
+    color: #fff;
+  }
+  a:link, a:visited,  a:hover, a:active
+  {
+      color: #000000;
+      text-decoration: none;
+  }
+  
+  .partido{
+    border-left: 2px solid $borde-footer;
+    border-right: 2px solid $borde-footer;
+  }
+}
+
+.cont-nav-desk {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: $base-footer;
+  border-bottom: 4px solid $borde-footer;
+  z-index: 100;
+  
+  .nav {
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 65px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .nav li:hover{
+    background-color: #d90a40;
+  }
+  
+  .nav li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    outline: 0;
+    cursor: pointer;
+  }
+  
+  .nav li a:link{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:link, a:visited,  a:hover, a:active
+  {
+      color: #000000;
+      text-decoration: none;
+  }
+}

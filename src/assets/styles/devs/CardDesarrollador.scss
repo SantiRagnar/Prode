@@ -1,0 +1,67 @@
+$border-card: #00162B;
+$color-fuente: #fff;
+$color-nojugado: #d96e0a;
+$color-enjuego: #2cd90a;
+$color-finalizado: #d90a0a;
+
+.cont-dev{
+  width: 50%;
+  min-width: 290px;
+  max-width: 300px;
+  padding: 8px;
+  margin: 0 auto;
+  // border: 2px solid $border-card;
+  box-shadow: 2px 4px 10px #00162b70;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80px 35px 25px 10px;
+  grid-template-areas: 
+    "v i v2"
+    "n n n"
+    "p r r"
+    "v4 r r"
+  ;
+}
+
+.img-dev{
+  grid-area: i;
+}
+
+.name-dev{
+  grid-area: n;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.papel-dev{
+  grid-area: p;
+}
+
+.cont-social-dev{
+  grid-area: r;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-dev{
+  display: flex;
+}
+
+.icon{
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon:active{
+  background-color: #e3e3e3;
+  transform: scale(1.05);
+}
+
+

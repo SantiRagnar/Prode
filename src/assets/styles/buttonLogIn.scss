@@ -1,0 +1,99 @@
+$background-LogIn: #d90a40;
+$border-button: #af0b37;
+
+.buttonLogIn{
+  z-index: 10;
+  position: fixed;
+  bottom: 80px;
+  right: 8px;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px 0px 12px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  border-radius: 20px;
+  background: $background-LogIn;
+  color: #fff;
+  border: 2px solid $border-button;
+}
+
+.buttonLogIn span{
+  padding-left: 8px;
+}
+
+.buttonLogIn-desk{
+  cursor: pointer;
+  z-index: 10;
+  position: fixed;
+  top: 80px;
+  right: 8px;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px 0px 12px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  border-radius: 20px;
+  background: $background-LogIn;
+  color: #fff;
+  border: 2px solid $border-button;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonLogIn-desk:hover{
+  background-color: $border-button;
+}
+
+/* .buttonLogIn{
+  z-index: 10;
+  position: fixed;
+  bottom: 80px;
+  right: 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px 0px 12px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  border-radius: 20px;
+  background: $background-LogIn;
+  color: #fff;
+  border: 2px solid $border-button;
+}
+
+.buttonLogIn span{
+  padding-left: 8px;
+}
+
+.buttonLogIn-desk{
+  cursor: pointer;
+  z-index: 10;
+  position: fixed;
+  top: 80px;
+  right: 8px;
+  height: 40px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px 0px 12px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  border-radius: 20px;
+  background: $background-LogIn;
+  color: #fff;
+  border: 2px solid $border-button;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonLogIn-desk:hover{
+  background-color: #af0b37;
+} */
